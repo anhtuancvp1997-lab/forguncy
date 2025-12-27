@@ -203,5 +203,15 @@
     },
     "LockDateTime": "2025-12-27T16:03:50.911458+07:00",
     "ModuleType": 7
+  },
+  {
+    "ModuleName": "Table/MAY_QC_PROCESS",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "DESKTOP-VFMKB8R\\yn6810",
+      "Email": "anhtuancvp1997@gmail.com"
+    },
+    "LockDateTime": "2025-12-27T16:05:12.6606251+07:00",
+    "ModuleType": 7
   }
 ]
