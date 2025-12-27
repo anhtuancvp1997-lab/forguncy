@@ -1,0 +1,240 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "AttachInfos": {
+    "1,2": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner",
+        "IsBounding": true,
+        "DataSource": "MAY_QC_PROCESS",
+        "ValueColumnBindingInfo": {
+          "TableName": "MAY_QC_PROCESS",
+          "ColumnName": "PROCESS_ID",
+          "GUID": "6772f9e0-81cf-4ff5-af8e-36c0fab7a337"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "MAY_QC_PROCESS",
+          "ColumnName": "PROCESS_ID",
+          "GUID": "4c6c25fe-4502-4a23-ae31-5928355d2752"
+        }
+      }
+    },
+    "1,11": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner",
+        "IsBounding": true,
+        "DataSource": "VW_BRAND",
+        "ValueColumnBindingInfo": {
+          "TableName": "VW_BRAND",
+          "ColumnName": "BRANDNM",
+          "GUID": "ff3a368c-d8ac-442b-baad-a8c67a1c1626"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "VW_BRAND",
+          "ColumnName": "BRANDNM",
+          "GUID": "72e6d584-2da1-469d-8bd6-68e2a79bac2b"
+        }
+      }
+    },
+    "1,30": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+            "TargetTableName": "MAY_ERRORCONFIG",
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "MAY_ERRORCONFIG",
+                    "ColumnName": "BRAND",
+                    "GUID": "1d7af305-2d9e-4e72-947d-32e624f24354"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=qcMay!L2"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "MAY_ERRORCONFIG",
+                    "ColumnName": "CONGDOAN",
+                    "GUID": "818646bb-b890-43a8-af0c-e3b83a13196d"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=qcMay!C2"
+                  }
+                }
+              ]
+            },
+            "ID": "cc9406d0d07f443e8880ba97a2941c19",
+            "BreakpointIdentity": "54e2b563-d250-43b3-886f-8c7f55125930"
+          }
+        ],
+        "TemplateKey": "_RS_Main1",
+        "Icon": {
+          "Name": "Application/047_search_8.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "3,2": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "MAY_ERRORCONFIG",
+        "RowIndex": 3,
+        "ColumnIndex": 2,
+        "RowCount": 23,
+        "ColumnCount": 43,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionListStyle2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "4,2": {
+      "NameUsedInJavaScript": "ERRORCODE",
+      "BindingInfo": {
+        "TableName": "MAY_ERRORCONFIG",
+        "ColumnName": "ERRORCODE",
+        "GUID": "d6f6d141-c965-440d-a741-a80ad76d04a8"
+      }
+    },
+    "4,6": {
+      "NameUsedInJavaScript": "BRAND",
+      "BindingInfo": {
+        "TableName": "MAY_ERRORCONFIG",
+        "ColumnName": "BRAND",
+        "GUID": "a468f954-70ae-49bc-8286-deedbc2d9a44"
+      }
+    },
+    "4,10": {
+      "NameUsedInJavaScript": "CONGDOAN",
+      "BindingInfo": {
+        "TableName": "MAY_ERRORCONFIG",
+        "ColumnName": "CONGDOAN",
+        "GUID": "ef5b707b-7610-4d6d-aa76-ca0927a3b816"
+      }
+    },
+    "4,14": {
+      "NameUsedInJavaScript": "ERRORNAME_VN",
+      "BindingInfo": {
+        "TableName": "MAY_ERRORCONFIG",
+        "ColumnName": "ERRORNAME_VN",
+        "GUID": "0980a124-c237-45f7-8804-5794b8e0dd2f"
+      }
+    },
+    "4,18": {
+      "NameUsedInJavaScript": "ERRORNAME_CN",
+      "BindingInfo": {
+        "TableName": "MAY_ERRORCONFIG",
+        "ColumnName": "ERRORNAME_CN",
+        "GUID": "ff0b2813-6a28-4dd8-b3f5-3bef583a836e"
+      }
+    },
+    "4,22": {
+      "NameUsedInJavaScript": "ERRORNAME_EN",
+      "BindingInfo": {
+        "TableName": "MAY_ERRORCONFIG",
+        "ColumnName": "ERRORNAME_EN",
+        "GUID": "9e040fe5-1726-4f4c-8b40-0a254a125046"
+      }
+    },
+    "4,26": {
+      "NameUsedInJavaScript": "NOTE",
+      "BindingInfo": {
+        "TableName": "MAY_ERRORCONFIG",
+        "ColumnName": "NOTE",
+        "GUID": "00fd83dc-e9a5-458a-bbbe-af8ec100e96e"
+      }
+    },
+    "4,30": {
+      "NameUsedInJavaScript": "BRANDCODE",
+      "BindingInfo": {
+        "TableName": "MAY_ERRORCONFIG",
+        "ColumnName": "BRANDCODE",
+        "GUID": "755d0cf3-ff06-4374-a356-c43ab055c056"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "@",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,20": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "5,2,21,43",
+    "3,2,1,4",
+    "4,2,1,4",
+    "3,6,1,4",
+    "4,6,1,4",
+    "3,10,1,4",
+    "4,10,1,4",
+    "3,14,1,4",
+    "4,14,1,4",
+    "3,18,1,4",
+    "4,18,1,4",
+    "3,22,1,4",
+    "4,22,1,4",
+    "3,26,1,4",
+    "4,26,1,4",
+    "3,30,1,4",
+    "4,30,1,4",
+    "1,20,1,6",
+    "1,30,1,5",
+    "1,2,1,7",
+    "1,11,1,6"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//PwFj2JkUPpR03H6P30z4MhqBUoaqRu2W5NAow8LH3mHkEJoP3fpME++FqYJXWy0ZGjKyaA7HfhIZYxO6m8etZ2CbTOsK7VKzOWfPDnFTrBwdqXt6tbffQRLpqhrTovwHNV7HYXh8JXors1tUCCufXkKBVLPsFnEZiAQgOxdYNb/UF/X+e2VFI2wNQ3axoW5jkBGAnH1wNdllPTs2LCZyNMTMi3kSnsiDsknCQwn5Qb3PvHa81RTSeGiVNRdLw5Y9IWMQDXJZPifzzjQxX4wBEmxn01KUotyFebikdxh6q0fYE0if/7MrRtQJoTI8vx9Qk8MfEgUKe08vt8Kf1eR2Jg4goNAyjw0bliKrG0yxrpSdq6AVAGpufXPNNf+KXKPaX0pCeJpirtiiplMoo5EvWoOxtsQvUVd+4XPFq8d+CXiydBfpWCU9Q9gjkOgPi6C8/MOwmjgslbbSXLKEIdN2qFmmc4ga3wbvP0OC9Id84h6nbW4uHPA26G/i7tLFJ+Tlgg7e3YDF3plcqMZzKKwQS1KAshRy3MjARqLj4Ap8gsenQMmVtY5gTwegceYbAJsOEbFAmfAQEXPvOdIinY+O/i6HyJx7AD/jpp6/OuxDbF7sVgoF3M2ZPfp9h4FQFBrzkiXXNr1QyKMTrenfo1ys/MTaDEt9/Lzkl+rOXumCZ/X7rie9E6D00nMZTcV6ylgR0VfFoKWBhpj+8bmkIMjPMe2mVfOxd3TaQom2FhX89qYg0CLrM17vln1G/28o4hVS1TjqeE0NEIR5mPy74kUhLwq1KodQUqgsl0l5ER7XCW4P2nDcrSpdIOIcVJYDO2LtLqbcjlMt2LlMokemIib4YeFbaJRfVCUzklzF7hkKDty32MmpOQwyJ4poFn+DxRw5UMChXCbGmHWOZhkTV0IGXA==|920

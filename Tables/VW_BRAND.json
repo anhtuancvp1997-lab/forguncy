@@ -1,0 +1,25 @@
+{
+  "Name": "VW_BRAND",
+  "Columns": [
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "VARCHAR2",
+      "MaxLength": -1,
+      "Name": "BRANDNM",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    }
+  ],
+  "ExternalDatabaseInfo": {
+    "DataBaseType": "6db454c0-531c-4395-9122-921a18942902",
+    "ConnectionId": "Oracle1",
+    "SourceTableName": "VW_BRAND",
+    "SourceTableSchema": "",
+    "CreateViewSql": "SELECT distinct brandnm FROM vw_shoe_no_by_brand\n",
+    "ViewInfo": {
+      "ViewName": "VW_BRAND",
+      "IsUpdatable": true,
+      "QueryColumns": []
+    }
+  },
+  "Indexes": []
+}

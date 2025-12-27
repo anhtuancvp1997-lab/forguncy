@@ -157,16 +157,7 @@
   },
   {
     "ModuleName": "DataContectionSet",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-VFMKB8R\\yn6810",
-      "Email": "anhtuancvp1997@gmail.com"
-    },
-    "LockDateTime": "2025-12-27T16:03:37.1374711+07:00",
-    "ModuleType": 25,
-    "ToRemoveFiles": [
-      "DataConnectionSet.json"
-    ]
+    "ModuleType": 25
   },
   {
     "ModuleName": "Upload",
@@ -178,14 +169,7 @@
   },
   {
     "ModuleName": "Plugin",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-VFMKB8R\\yn6810",
-      "Email": "anhtuancvp1997@gmail.com"
-    },
-    "LockDateTime": "2025-12-27T16:07:13.8155583+07:00",
-    "ModuleType": 40,
-    "ToRemoveFiles": []
+    "ModuleType": 40
   },
   {
     "ModuleName": "PublishSetting",
@@ -193,42 +177,18 @@
   },
   {
     "ModuleName": "PCPage/qcMay",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "DESKTOP-VFMKB8R\\yn6810",
-      "Email": "anhtuancvp1997@gmail.com"
-    },
-    "LockDateTime": "2025-12-27T16:03:00.7767648+07:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "Table/MAY_ERRORCONFIG",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "DESKTOP-VFMKB8R\\yn6810",
-      "Email": "anhtuancvp1997@gmail.com"
-    },
-    "LockDateTime": "2025-12-27T16:03:50.911458+07:00",
     "ModuleType": 7
   },
   {
     "ModuleName": "Table/MAY_QC_PROCESS",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "DESKTOP-VFMKB8R\\yn6810",
-      "Email": "anhtuancvp1997@gmail.com"
-    },
-    "LockDateTime": "2025-12-27T16:05:12.6606251+07:00",
     "ModuleType": 7
   },
   {
     "ModuleName": "TableView/VW_BRAND",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "DESKTOP-VFMKB8R\\yn6810",
-      "Email": "anhtuancvp1997@gmail.com"
-    },
-    "LockDateTime": "2025-12-27T16:05:32.9483335+07:00",
     "ModuleType": 23
   }
 ]

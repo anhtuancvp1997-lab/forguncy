@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "ConnectionString": "USER ID=aps01;PASSWORD=aps01;DATA SOURCE=orcl36",
+    "DataBaseType": "cbdb540e-ded5-415e-b8cd-5b1dba43a89e",
+    "ID": "Oracle1"
+  }
+]
