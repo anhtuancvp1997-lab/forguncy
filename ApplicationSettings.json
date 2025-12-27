@@ -1,0 +1,39 @@
+{
+  "IntegrateWithOtherApplication": {
+    "Password": ")AjOU&rqiiDA"
+  },
+  "ShareCommandContainers": [],
+  "ListviewLoadingIndicatorSettings": {},
+  "GlobalProperties": [],
+  "WebSitePort": 21831,
+  "UserServicePort": 15937,
+  "StartDateFiscalYear": 1,
+  "BaseOnStartingMonth": true,
+  "MultipleLanguageSettings": {
+    "Languages": [
+      {
+        "Name": "cn",
+        "IsDefault": true,
+        "Description": "内置语言中文，不可删除",
+        "IsBuildIn": true,
+        "LanguageAttribute": "zh-cn",
+        "FontFamily": "Body"
+      },
+      {
+        "Name": "en",
+        "Description": "内置语言英文，不可删除",
+        "IsBuildIn": true,
+        "LanguageAttribute": "en",
+        "FontFamily": "Calibri"
+      }
+    ],
+    "PublicResource": {},
+    "RuntimeBuiltInResource": {
+      "FrontEndResources": {},
+      "ServerResources": {},
+      "ProcessDesignerResource": {},
+      "ProcessTrackerResource": {}
+    },
+    "PluginResource": {}
+  }
+}
