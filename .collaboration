@@ -193,5 +193,15 @@
     },
     "LockDateTime": "2025-12-27T16:03:00.7767648+07:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "Table/MAY_ERRORCONFIG",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "DESKTOP-VFMKB8R\\yn6810",
+      "Email": "anhtuancvp1997@gmail.com"
+    },
+    "LockDateTime": "2025-12-27T16:03:50.911458+07:00",
+    "ModuleType": 7
   }
 ]
